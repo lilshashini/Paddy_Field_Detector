@@ -36,6 +36,8 @@ An advanced computer vision system for automated detection and segmentation of a
 - **Data Processing**: COCO annotations, JSON, GeoJSON
 - **Geospatial**: Shapefile generation
 - **Visualization**: Matplotlib, PIL
+- **Data Annotation**: Roboflow, LabelMe
+- **Dataset Management**: Roboflow platform for dataset versioning and augmentation
 
 ## 📋 Requirements
 
@@ -138,8 +140,11 @@ Complete shapefile package (.shp, .shx, .dbf, .prj) for GIS applications.
 
 ### Dataset Preparation
 1. Collect aerial imagery of agricultural fields
-2. Annotate using COCO format
-3. Prepare train/validation splits
+    **Annotate using LabelMe** for precise polygon boundaries
+    **Upload to Roboflow** for dataset management and augmentation
+    **Export in COCO format** from Roboflow for Detectron2 compatibility
+3. Annotate using COCO format
+4. Prepare train/validation splits
 
 ### Training Configuration
 ```python
@@ -237,9 +242,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- **Author**: Shashini Sathsarani Laksiri
+- **Email**: shashinilaksiri@gmail,
+- **LinkedIn**: www.linkedin.com/in/shashini-sathsarani-laksiri
 - **Project Link**: [https://github.com/yourusername/agricultural-field-detection](https://github.com/yourusername/agricultural-field-detection)
 
 ## 🔮 Future Enhancements
