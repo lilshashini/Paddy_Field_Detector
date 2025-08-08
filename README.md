@@ -24,7 +24,7 @@ An advanced computer vision system for automated detection and segmentation of a
 ├── Inference Engine (OpenCV + Computer Vision)
 ├── Web Interface (Streamlit)
 ├── API Backend (FastAPI/Flask)
-└── Output Processing (GeoJSON, Shapefile generation)
+└── Output Processing (Polygon-drawn aerial images,GeoJSON, Shapefile generation)
 ```
 
 ## 🚀 Technologies Used
