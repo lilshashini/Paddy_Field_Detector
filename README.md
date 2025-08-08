@@ -1,4 +1,4 @@
-# 🌾 Agricultural Field Detection System
+# 🌾 Paddy Fields and Shrimp Ponds Detection System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Detectron2](https://img.shields.io/badge/Detectron2-Latest-green.svg)](https://detectron2.readthedocs.io/)
